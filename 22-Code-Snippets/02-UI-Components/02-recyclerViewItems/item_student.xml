@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/clItemView"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg_item_student"
+    android:layout_margin="16dp">
+
+    <ImageView
+        android:id="@+id/ivStudent"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/tvName"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Abu Bakkar Rahman"
+
+        style="@style/studentItemView"/>
+
+    <TextView
+        android:id="@+id/tvID"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="1902023"
+
+        android:focusable="true"
+        android:clickable="true"
+
+        style="@style/studentItemView"/>
+
+    <TextView
+        android:id="@+id/tvDepartment"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Computer Science and Engineering"
+
+        style="@style/studentItemView"/>
+
+</LinearLayout>

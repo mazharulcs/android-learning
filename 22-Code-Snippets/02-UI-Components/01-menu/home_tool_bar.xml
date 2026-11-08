@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/homeThemeMode"
+        android:title="Mode"
+        android:icon="@drawable/ic_dark_mode"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/homeItemEdit"
+        android:title="edit"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/homeItemCopy"
+        android:title="copy"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/homeItemMove"
+        android:title="move"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/homeItemRename"
+        android:title="rename"
+        app:showAsAction="never"/>
+
+
+</menu>
